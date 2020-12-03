@@ -1,5 +1,5 @@
 # Disaster Response Pipeline Project
-
+## Project Set Up and Installation
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -12,3 +12,31 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+# Project motivation
+## Dataset
+
+
+### Project structure
+
+
+
+### Description of the repository.
+
+
+
+
+## Results
+
+
+
+## Future work
+
+ 
+
+### Acknowledgements
+
+I am thankful to Udacity Data Science Nanodegree program for motivating me in this project.
+
+ 
+
