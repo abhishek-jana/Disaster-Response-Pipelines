@@ -1,5 +1,5 @@
 # Disaster Response Pipeline Project
-## Project Set Up and Installation
+### Project Set Up and Installation
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -13,8 +13,8 @@
 
 3. Go to http://0.0.0.0:3001/
 
-# Project motivation
-## Dataset
+### Project motivation
+### Dataset
 
 
 ### Project structure
@@ -26,11 +26,11 @@
 
 
 
-## Results
+### Results
 
 
 
-## Future work
+### Future work
 
  
 
