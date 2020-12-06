@@ -48,6 +48,10 @@ def clean_data(df):
     # Replace categories column in df with new category columns.
     df = df.drop(['categories'],axis=1) # drop the original categories column
     df = pd.concat([df,categories],join = 'inner',axis=1) # concatenate
+    # drop the child-alone column from `df`
+    df = df.drop(['child_alone'],axis=1)
+    # drop the rows from related column with value = 2
+    df=df[df["related"] < 2]
     df = df.drop_duplicates() # drop duplicates
     return df
 
