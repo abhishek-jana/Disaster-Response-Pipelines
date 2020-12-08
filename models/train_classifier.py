@@ -145,12 +145,12 @@ def build_model():
     
     parameters = {
         #'features__text_pipeline__vect__ngram_range': ((1, 1), (1, 2)),
-        'features__text_pipeline__vect__max_df': (0.5, 0.75, 1.0),
+        #'features__text_pipeline__vect__max_df': (0.5, 0.75, 1.0),
         #'features__text_pipeline__vect__max_features': (None, 5000, 10000),
         #'features__text_pipeline__tfidf__use_idf': (True, False),
-        #'xgbclassifier__estimator__n_estimators': [100, 200, 300, 400, 500],
+        'xgbclassifier__estimator__n_estimators': [100, 200, 300],
         #'xgbclassifier__estimator__learning_rate': [0.1, 0.3],
-        #'xgbclassifier__estimator__max_depth': [3,5,10],
+        'xgbclassifier__estimator__max_depth': [3,5,10],
         #'xgbclassifier__estimator__gamma': [0.5, 1],
         #'features__transformer_weights': (
             #{'text_pipeline': 1, 'starting_verb': 0.5,'starting_noun': 0.5},
