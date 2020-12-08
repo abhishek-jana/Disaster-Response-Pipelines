@@ -182,9 +182,9 @@ def evaluate_model(model, X_test, Y_test, category_names):
     
     """
     # Predict on data
-    Y_pred = pipeline.predict(X_test)
+    Y_pred = model.predict(X_test)
     
-    accuracy = (y_pred == y_test).mean()
+    accuracy = (Y_pred == Y_test).mean()
     report = classification_report(Y_test.values, Y_pred, target_names=category_names)
     
     print (accuracy)    
