@@ -1,6 +1,7 @@
 # Disaster Response Pipeline Project
 
 In this project, we'll apply ETL pipeline, NLP pipeline, and ML pipeline to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
+
 **Main Web Interface**
 ![Main web page](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/interface.png)
 
@@ -51,6 +52,7 @@ Plotly
 
 ### Project structure
 The project is structured as follows:
+
 ![structure](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/dir_structure.png)
 
 ### Description of the repository.
@@ -61,7 +63,6 @@ The project is structured as follows:
 "process_data.py" is the python script of the notebook.
 
 "ML Pipeline Preparation.ipynb" is the jupyter notebook explaining the model training method. The relevant python file "train_classifier.py" can be found in the **models** folder.
-
 Final trained model is saved as "classifier.pkl" in the **models** folder.
 
 **app** folder contains the "run.py" script to render the visualization and results in the web. **templates** folder contains the .html files for the web interface.
@@ -70,6 +71,7 @@ Final trained model is saved as "classifier.pkl" in the **models** folder.
 The accuracy, precision and recall are:
 
 **accuracy**
+
 ![acc](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/accuracy.png)
 
 **precision and recall**
@@ -79,12 +81,15 @@ The accuracy, precision and recall are:
 Some of the predictions on messages are given as well:
 
 **message 1**
+
 ![m1](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/message1.png)
 
 **message 2**
+
 ![m2](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/message2.png)
 
 **message 3**
+
 ![m3](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/message3.png)
 
 ### Future work
