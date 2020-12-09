@@ -104,6 +104,10 @@ In future I am planning to work on the following areas of the project:
 
 3. Improve the web interface.
 
+4. Based on the categories that the ML algorithm classifies text into, advise some organizations to connect to.
+
+5. This dataset is imbalanced (ie some labels like water have few examples). In the README, discuss how this imbalance, how that affects training the model, and your thoughts about emphasizing precision or recall for the various categories.
+
 ### Acknowledgements
 
 I am thankful to Udacity Data Science Nanodegree program and figure eight for motivating me in this project.
