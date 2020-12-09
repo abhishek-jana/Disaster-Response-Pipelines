@@ -51,6 +51,7 @@ Plotly
 
 
 ### Project structure
+
 The project is structured as follows:
 
 ![structure](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/dir_structure.png)
@@ -71,6 +72,7 @@ Final trained model is saved as "classifier.pkl" in the **models** folder.
 The accuracy, precision and recall are:
 
 **accuracy**
+
 
 ![acc](https://github.com/abhishek-jana/Disaster-Response-Pipelines/blob/main/images/accuracy.png)
 
