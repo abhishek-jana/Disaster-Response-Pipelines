@@ -15,6 +15,9 @@ from sqlalchemy import create_engine
 
 from sklearn.base import BaseEstimator, TransformerMixin
 import joblib
+import os
+
+from wsgiref import simple_server
 
 app = Flask(__name__)
 
@@ -165,8 +168,16 @@ def go():
     )
 
 
+port = int(os.getenv("PORT", 5000))
+# if __name__ == "__main__":
+#     host = '0.0.0.0'
+#     # port = 5000
+#     httpd = simple_server.make_server(host, port, app)
+#     # print("Serving on %s %d" % (host, port))
+#     httpd.serve_forever()
+
 def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=True)
 
 
 if __name__ == '__main__':
