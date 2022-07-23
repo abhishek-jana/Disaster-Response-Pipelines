@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 
 import re
 import nltk
-nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger','stopwords'])
+nltk.download(['omw-1.4','punkt', 'wordnet', 'averaged_perceptron_tagger','stopwords'])
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
