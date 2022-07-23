@@ -5,7 +5,7 @@ import pandas as pd
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-
+nltk.download(['omw-1.4','punkt', 'wordnet', 'averaged_perceptron_tagger','stopwords'])
 from flask import Flask
 from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar
